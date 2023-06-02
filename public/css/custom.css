@@ -1,0 +1,32 @@
+.modal-pupil-container{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    background-color: #0c0c0c5b;
+  
+
+ 
+}
+.modal-pupil-container .modal-pupil-container-content{
+   
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.modal-pupil-container .modal-pupil-container-content ul{
+    border-radius: 0;
+    overflow: auto;
+    width: 400px;
+    height: 400px;
+}
+.modal-pupil-container .modal-pupil-container-content li:hover{
+   background-color: rgb(214, 214, 214);
+}
